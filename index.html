@@ -1,14 +1,38 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Home</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
-</head>
-<body>
-    <a href="./Pages/Page-Base/index.html">Test</a>
-</body>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Home</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+        <link rel='stylesheet' type='text/css' media='screen' href='./Shared/Styles/main.css'>
+        <script src='main.js'></script>
+        <script src="./Shared/Scripts/main.js"></script>
+    </head>
+    <body>
+        <div id="Header">
+            <img id="HamburgerMenuButton" onclick="ToggleHamburgerMenu();" src="./Shared/Assets/NotExpanded.svg">
+            <div id="HamburgerMenu" class="HamburgerMenu-NotExpanded">
+                <a>Test</a>
+                <a>Does</a>
+                <a>This</a>
+            </div>
+        </div>
+        
+        <div id="MainDiv">
+            <h1>Programmer, creative designer, millionaire, playboy.</h1>
+
+            <div>
+                <h2>Content:</h2>
+                <ul>
+                    <li><a href="./Pages//About-Me/index.html">Who am i?</a></li>
+                    <li><a href="./Pages/Projects/index.html">My projects</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div id="Footer"></div>
+    </body>
 </html>
